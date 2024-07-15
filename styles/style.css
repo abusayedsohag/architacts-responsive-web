@@ -77,4 +77,19 @@ body {
     margin: 45px 240px;
 }
 
+@media screen and (max-width: 575px) {
+    .header {
+        width: auto;
+    }
 
+    .nav {
+        flex-direction: column;
+        padding: 45px 0;
+    }
+
+    .header-bottom {
+        padding: 10px;
+    }
+
+
+}
