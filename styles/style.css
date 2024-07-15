@@ -206,7 +206,7 @@ section {
         padding: 10px;
     }
 
-    .team-section {
+    .team-section, .feature-section {
         flex-direction: column;
     }
 
@@ -216,5 +216,31 @@ section {
 
     .team-text {
         margin: 30px 0  0 30px;
+    }
+
+    .feature-text-boxs {
+        padding: 0 5px;
+    }
+
+    .feature-img {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feature-img img {
+        width: 100%;
+    }
+
+    #btn1 {
+        margin: 0;
+        padding: 20px;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .feature-img .t-span-3 {
+        font-size: 2rem;
+        font-weight: 700;
     }
 }
