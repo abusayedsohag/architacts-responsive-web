@@ -82,6 +82,7 @@ body {
 
 section {
     max-width: 1920px;
+    margin: 0 auto;
 }
 
 /* Team section styles */
@@ -242,6 +243,56 @@ section {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+/* sponsor - Section */
+
+.sponsors-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.sponsors-text {
+    max-width: 540px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.sponsors-text > h3 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsors-text > p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.sponsors-logo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* style of Footer */
+
+.footer-section {
+    max-width: 1440px;
+    background: #FFF4E7;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding: 48px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 575px) {
     .header {
